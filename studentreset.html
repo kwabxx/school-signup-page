@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Portal</title>
+    <link rel="stylesheet" href="./studentreset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="content">
+            <div class="navbar">
+                <a href="../Home/home.html" class="brand">PURDUE UNIVERSITY</a>
+                <div class="menu">
+                    <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+                    <label for="menu-toggle" class="menuicon">
+                        <img width="40" height="40" src="https://img.icons8.com/ios/50/menu--v7.png" alt="menu--v7"/>
+                    </label>
+                    <div class="navlnks" id="navlnks">
+                        <!-- <a href="#" class="close">&times;</a> -->
+                        <ul class="links">
+                            <li><a href="../About/about.html" class="navlinks">About</a></li>
+                            <li><a href="../admission/admission.html" class="navlinks">Admission</a></li>
+                            <li><a href="../Programs/programs.html" class="navlinks">Programs</a></li>
+                            <li><a href="../Contact/contact.html" class="navlinks">Contact</a></li>
+                        </ul>
+                        <ul class="proflinks">
+                            <li><a href="./student.html" class="navlink">Log In</a></li>
+                            <li><a href="./studentsignup.html" class="navlink">Sign Up</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="login">
+                <form class="loginform">
+                    <div class="formlogin">
+                        <!-- <div class="username">
+                            <label for="username"><input type="text" class="studentInput"  placeholder="Student ID" required></label>
+                        </div> -->
+                        <div class="password">
+                            <label for="passwd"><input type="password" placeholder="Enter your old Password" autofocus required></label>
+                        </div>
+                        <div class="password">
+                            <label for="passwd"><input type="password" placeholder="Enter New Password" autofocus required></label>
+                        </div>
+                        <div class="password">
+                            <label for="passwd"><input type="password" placeholder= "Confirm New Password" autofocus required></label>
+                        </div>
+                        <!-- <div class="check">
+                            <label for="checbox"><input type="checkbox"> Remember Me
+                            </label>
+                        </div> -->
+                        <div class="button">
+                            <button type="reset" class="rest"><a href="./studentreset.html" class="ret">Reset Password</a></button>
+                            <button type="submit" class="submt"><a href="./student.html" class="logs">Log In</a></button>
+                        </div>
+                         <div class="create">
+                            <p>Not an existing student? Sign up now to access exclusive resources and join our community of learners</p>
+                            <button type="submit" class="subit"><a href="./studentsignup.html">Sign Up</a></button>
+                        </div>
+                    </div>
+                </form>
+                <div class="loginwrite">
+                    <!-- <div class="logswrite">
+                        <h1>Hello Friend</h1>
+                        <div class="Create">
+                            <p>Not an existing student? Sign up now to access exclusive resources and join our community of learners</p>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+</body>
+</html>
